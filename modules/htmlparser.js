@@ -1,9 +1,7 @@
 const htmlparser2 = require('htmlparser2');
 const moment = require('moment');
 
-
 const tags = {
-    h1: false,
     dd: false,
     h3: false,
     a: false,
@@ -39,9 +37,6 @@ const htmlparser = new htmlparser2.Parser({
         }
     },
     ontext(text) {
-        if(tags.h1) {
-            console.log('Processing ', text);
-        }
         if(tags.h3) {
             bookmark.container = text;
         }
