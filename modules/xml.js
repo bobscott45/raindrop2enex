@@ -17,7 +17,7 @@ exports.create = function() {
 }
 
 exports.node = function(xml, bookmark) {
-    var note = xml.ele('note');
+    let note = xml.ele('note');
     note.ele('title', bookmark.title);
     note.ele('content').dat(content(bookmark.url, bookmark.description));
     note.ele('created', bookmark.date_added);
@@ -31,7 +31,7 @@ exports.toString = function(xml) {
 }
 
 function content(url, description) {
-    var content = '<?xml version="1.0" encoding="utf-8" standalone="no"?>';
+    let content = '<?xml version="1.0" encoding="utf-8" standalone="no"?>';
     content += '<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">';
     content += '<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">';
     content += '<a href="' + url + '">' + url + '</a>';

@@ -2,14 +2,14 @@ const htmlparser2 = require('htmlparser2');
 const moment = require('moment');
 
 
-let tags = {
+const tags = {
     h1: false,
     dd: false,
     h3: false,
     a: false,
 };
 
-let bookmark = {
+const bookmark = {
     container: '',
     title: '',
     description: '',
