@@ -1,7 +1,8 @@
 const fs = require('fs');
-const html2xml = require('./modules/html2xml');
+const htmlparser = require('./modules/htmlparser');
+const xmlproc = require('./modules/xml');
+const xml = xmlproc.create();
 
-let html = fs.readFileSync('Raindrop.io.html', 'utf8');
-let xml = html2xml.toXML(html);
-
-console.log(xml);
+const html = fs.readFileSync('Raindrop.io.html', 'utf8');
+htmlparser.convert(html, bookmark => xmlproc.node(xml, bookmark));
+console.log(xmlproc.toString(xml));
