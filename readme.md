@@ -1,3 +1,4 @@
+```
   Usage: index [options] [command]
   
   Commands:
@@ -9,3 +10,4 @@
     -i, --input [value]   The input file (defaults to "Raindrop.io.html")
     -o, --output [value]  The output file (defaults to "stdout")
     -v, --version         Output the version number
+```
