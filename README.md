@@ -1,3 +1,6 @@
+Converts  html extract from raindrop.io into Evernote enex format.
+
+The raindrop extract is in Netscape bookmarks format and the enex file can be imported into other applications such as Joplin.
 ```
   Usage: index [options] [command]
   
