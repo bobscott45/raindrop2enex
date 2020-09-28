@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fb9f24d-eed8-4ad0-a67d-23730b35331f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/htmlparser.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/htmlparser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/xml.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/xml.js" afterDir="false" />
-    </list>
+    <list default="true" id="1fb9f24d-eed8-4ad0-a67d-23730b35331f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +57,7 @@
       <workItem from="1601207621244" duration="8239000" />
       <workItem from="1601221332142" duration="5640000" />
       <workItem from="1601309150423" duration="88000" />
-      <workItem from="1601309321878" duration="4687000" />
+      <workItem from="1601309321878" duration="4759000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor. Add modules.">
       <created>1601309411033</created>
@@ -84,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601312993340</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add tag for raindrop container">
+      <created>1601314856709</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601314856709</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,33 +97,34 @@
     <MESSAGE value="Refactor. Add modules." />
     <MESSAGE value="Add DTD. Add attributes to root element. Format ISO dates." />
     <MESSAGE value="Change vars to let or const." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change vars to let or const." />
+    <MESSAGE value="Add tag for raindrop container" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tag for raindrop container" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="264" y="27" width="900" height="873" key="CommitChangelistDialog2" timestamp="1601312993258">
+    <state x="264" y="27" width="1167" height="873" key="CommitChangelistDialog2" timestamp="1601314856623">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="264" y="27" width="900" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1601312993258" />
+    <state x="264" y="27" width="1167" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1601314856623" />
     <state x="469" y="174" width="490" height="521" key="FileChooserDialogImpl" timestamp="1601310263517">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state x="469" y="174" width="490" height="521" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1601310263517" />
-    <state width="1408" height="247" key="GridCell.Tab.0.bottom" timestamp="1601314486389">
+    <state width="1408" height="247" key="GridCell.Tab.0.bottom" timestamp="1601314880030">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="1408" height="247" key="GridCell.Tab.0.bottom/0.27.1600.873@0.27.1600.873" timestamp="1601314486389" />
-    <state width="1408" height="247" key="GridCell.Tab.0.center" timestamp="1601314486388">
+    <state width="1408" height="247" key="GridCell.Tab.0.bottom/0.27.1600.873@0.27.1600.873" timestamp="1601314880030" />
+    <state width="1408" height="247" key="GridCell.Tab.0.center" timestamp="1601314880028">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="1408" height="247" key="GridCell.Tab.0.center/0.27.1600.873@0.27.1600.873" timestamp="1601314486388" />
-    <state width="1408" height="247" key="GridCell.Tab.0.left" timestamp="1601314486387">
+    <state width="1408" height="247" key="GridCell.Tab.0.center/0.27.1600.873@0.27.1600.873" timestamp="1601314880028" />
+    <state width="1408" height="247" key="GridCell.Tab.0.left" timestamp="1601314880028">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="1408" height="247" key="GridCell.Tab.0.left/0.27.1600.873@0.27.1600.873" timestamp="1601314486387" />
-    <state width="1408" height="247" key="GridCell.Tab.0.right" timestamp="1601314486389">
+    <state width="1408" height="247" key="GridCell.Tab.0.left/0.27.1600.873@0.27.1600.873" timestamp="1601314880028" />
+    <state width="1408" height="247" key="GridCell.Tab.0.right" timestamp="1601314880028">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="1408" height="247" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1601314486389" />
+    <state width="1408" height="247" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1601314880028" />
     <state width="1330" height="277" key="GridCell.Tab.1.bottom" timestamp="1601227551291">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
@@ -173,10 +177,10 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state x="208" y="66" width="1022" height="737" key="SettingsEditor/0.27.1600.873@0.27.1600.873" timestamp="1601310273657" />
-    <state x="314" y="167" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601313006294">
+    <state x="314" y="167" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601314867454">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="314" y="167" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1601313006294" />
+    <state x="314" y="167" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1601314867454" />
     <state x="512" y="50" width="611" height="804" key="find.popup" timestamp="1601313288960">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
