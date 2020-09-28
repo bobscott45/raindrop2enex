@@ -12,6 +12,7 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "htmlparser2": "^4.1.0",
+    "moment": "^2.29.0",
     "xmlbuilder": "^15.1.1"
   }
 }

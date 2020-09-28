@@ -1,4 +1,5 @@
 const htmlparser2 = require('htmlparser2');
+const moment = require('moment');
 
 
 let tags = {
@@ -29,8 +30,8 @@ const htmlparser = new htmlparser2.Parser({
                     handleBookmark(bookmark);
                 }
                 bookmark.url = attribs.href;
-                bookmark.date_added = new Date(attribs.add_date * 1000);
-                bookmark.last_modified = new Date(attribs.last_modified * 1000);
+                bookmark.date_added = moment(attribs.add_date * 1000).toISOString();
+                bookmark.last_modified = moment(attribs.last_modified * 1000).toISOString();
                 bookmark.tags = attribs.tags;
                 bookmark.title = '';
                 bookmark.description = '';

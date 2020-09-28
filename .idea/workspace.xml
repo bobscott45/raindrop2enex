@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb9f24d-eed8-4ad0-a67d-23730b35331f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Raindrop.io.html" beforeDir="false" afterPath="$PROJECT_DIR$/Raindrop.io.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/xml.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/xml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +38,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -58,29 +62,50 @@
       <workItem from="1601207621244" duration="8239000" />
       <workItem from="1601221332142" duration="5640000" />
       <workItem from="1601309150423" duration="88000" />
+      <workItem from="1601309321878" duration="2430000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactor. Add modules.">
+      <created>1601309411033</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601309411033</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactor. Add modules." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor. Add modules." />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1330" height="277" key="GridCell.Tab.0.bottom" timestamp="1601227551289">
+    <state x="264" y="27" width="900" height="873" key="CommitChangelistDialog2" timestamp="1601309410856">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="1330" height="277" key="GridCell.Tab.0.bottom/0.27.1600.873@0.27.1600.873" timestamp="1601227551289" />
-    <state width="1330" height="277" key="GridCell.Tab.0.center" timestamp="1601227551289">
+    <state x="264" y="27" width="900" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1601309410856" />
+    <state x="469" y="174" width="490" height="521" key="FileChooserDialogImpl" timestamp="1601310263517">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="1330" height="277" key="GridCell.Tab.0.center/0.27.1600.873@0.27.1600.873" timestamp="1601227551289" />
-    <state width="1330" height="277" key="GridCell.Tab.0.left" timestamp="1601227551288">
+    <state x="469" y="174" width="490" height="521" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1601310263517" />
+    <state width="1408" height="247" key="GridCell.Tab.0.bottom" timestamp="1601312435069">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="1330" height="277" key="GridCell.Tab.0.left/0.27.1600.873@0.27.1600.873" timestamp="1601227551288" />
-    <state width="1330" height="277" key="GridCell.Tab.0.right" timestamp="1601227551289">
+    <state width="1408" height="247" key="GridCell.Tab.0.bottom/0.27.1600.873@0.27.1600.873" timestamp="1601312435069" />
+    <state width="1408" height="247" key="GridCell.Tab.0.center" timestamp="1601312435068">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="1330" height="277" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1601227551289" />
+    <state width="1408" height="247" key="GridCell.Tab.0.center/0.27.1600.873@0.27.1600.873" timestamp="1601312435068" />
+    <state width="1408" height="247" key="GridCell.Tab.0.left" timestamp="1601312435068">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state width="1408" height="247" key="GridCell.Tab.0.left/0.27.1600.873@0.27.1600.873" timestamp="1601312435068" />
+    <state width="1408" height="247" key="GridCell.Tab.0.right" timestamp="1601312435069">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state width="1408" height="247" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1601312435069" />
     <state width="1330" height="277" key="GridCell.Tab.1.bottom" timestamp="1601227551291">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
@@ -129,6 +154,14 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state width="1330" height="277" key="GridCell.Tab.3.right/0.27.1600.873@0.27.1600.873" timestamp="1601227551292" />
+    <state x="208" y="66" width="1022" height="737" key="SettingsEditor" timestamp="1601310273657">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="208" y="66" width="1022" height="737" key="SettingsEditor/0.27.1600.873@0.27.1600.873" timestamp="1601310273657" />
+    <state x="314" y="167" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601309421242">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="314" y="167" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1601309421242" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
