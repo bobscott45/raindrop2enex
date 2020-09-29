@@ -2,10 +2,160 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb9f24d-eed8-4ad0-a67d-23730b35331f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/htmlparser.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/htmlparser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/xml.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/xml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/lib/foreignNames.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/lib/foreignNames.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/lib/foreignNames.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/lib/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/lib/index.test.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/lib/index.test.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/lib/index.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domelementtype/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domelementtype/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domelementtype/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domelementtype/lib/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domelementtype/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domelementtype/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domhandler/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domhandler/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domhandler/lib/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domhandler/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domhandler/lib/node.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domhandler/lib/node.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domhandler/lib/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domhandler/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domhandler/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/helpers.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/helpers.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/legacy.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/legacy.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/legacy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/manipulation.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/manipulation.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/querying.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/querying.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/querying.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/stringify.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/stringify.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/tagtypes.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/tagtypes.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/tagtypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/traversal.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/traversal.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/lib/traversal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domutils/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/decode.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/decode.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/decode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/decode_codepoint.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/decode_codepoint.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/decode_codepoint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/encode.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/encode.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/encode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/maps/decode.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/maps/entities.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/maps/legacy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/maps/xml.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/CollectingHandler.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/CollectingHandler.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/CollectingHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/FeedHandler.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/FeedHandler.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/FeedHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/MultiplexHandler.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/MultiplexHandler.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/MultiplexHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/Parser.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/Parser.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/Parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/Tokenizer.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/Tokenizer.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/Tokenizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/WritableStream.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/WritableStream.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/WritableStream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/htmlparser2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/.nycrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/Derivation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/DocumentPosition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/NodeType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/OperationType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/Utility.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/WriterState.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLAttribute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLCData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLCharacterData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLComment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLDOMConfiguration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLDOMErrorHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLDOMImplementation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLDOMStringList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLDTDAttList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLDTDElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLDTDEntity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLDTDNotation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLDeclaration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLDocType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLDocument.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLDocumentCB.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLDocumentFragment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLDummy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLNamedNodeMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLNodeFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLNodeList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLProcessingInstruction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLRaw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLStreamWriter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLStringWriter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLStringifier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLText.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLTypeInfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLUserDataHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLWriterBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/perf/basic/escaping.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/perf/basic/object.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/perf/index.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/perf/perf.list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/typings/index.d.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +215,7 @@
       <workItem from="1601309321878" duration="4759000" />
       <workItem from="1601322067724" duration="3791000" />
       <workItem from="1601359295458" duration="2964000" />
-      <workItem from="1601362614037" duration="54000" />
+      <workItem from="1601362614037" duration="386000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor. Add modules.">
       <created>1601309411033</created>
@@ -121,22 +271,22 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state x="469" y="174" width="490" height="521" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1601359669533" />
-    <state width="1577" height="121" key="GridCell.Tab.0.bottom" timestamp="1601362259402">
+    <state width="1577" height="211" key="GridCell.Tab.0.bottom" timestamp="1601362672758">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="1577" height="121" key="GridCell.Tab.0.bottom/0.27.1600.873@0.27.1600.873" timestamp="1601362259402" />
-    <state width="1577" height="121" key="GridCell.Tab.0.center" timestamp="1601362259402">
+    <state width="1577" height="211" key="GridCell.Tab.0.bottom/0.27.1600.873@0.27.1600.873" timestamp="1601362672758" />
+    <state width="1577" height="211" key="GridCell.Tab.0.center" timestamp="1601362672757">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="1577" height="121" key="GridCell.Tab.0.center/0.27.1600.873@0.27.1600.873" timestamp="1601362259402" />
-    <state width="1577" height="121" key="GridCell.Tab.0.left" timestamp="1601362259402">
+    <state width="1577" height="211" key="GridCell.Tab.0.center/0.27.1600.873@0.27.1600.873" timestamp="1601362672757" />
+    <state width="1577" height="211" key="GridCell.Tab.0.left" timestamp="1601362672755">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="1577" height="121" key="GridCell.Tab.0.left/0.27.1600.873@0.27.1600.873" timestamp="1601362259402" />
-    <state width="1577" height="121" key="GridCell.Tab.0.right" timestamp="1601362259402">
+    <state width="1577" height="211" key="GridCell.Tab.0.left/0.27.1600.873@0.27.1600.873" timestamp="1601362672755" />
+    <state width="1577" height="211" key="GridCell.Tab.0.right" timestamp="1601362672757">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="1577" height="121" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1601362259402" />
+    <state width="1577" height="211" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1601362672757" />
     <state width="1577" height="121" key="GridCell.Tab.1.bottom" timestamp="1601362259403">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
