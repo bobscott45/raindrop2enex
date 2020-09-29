@@ -12,6 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {
     "args": "^5.0.1",
     "fs": "0.0.1-security",
