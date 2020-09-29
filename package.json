@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "raindrop2enix": "index.js"
+    "raindrop2enex": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
