@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb9f24d-eed8-4ad0-a67d-23730b35331f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
       <workItem from="1601359295458" duration="2964000" />
       <workItem from="1601362614037" duration="730000" />
       <workItem from="1601366446887" duration="4161000" />
-      <workItem from="1601372098279" duration="5737000" />
+      <workItem from="1601372098279" duration="6357000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor. Add modules.">
       <created>1601309411033</created>
