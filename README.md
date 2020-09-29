@@ -1,8 +1,26 @@
-Converts  html extract from raindrop.io into Evernote enex format.
+# raindrop2enex
 
-The raindrop extract is in Netscape bookmarks format and the enex file can be imported into other applications such as Joplin.
+Command to convert  html extract from raindrop.io into Evernote enex format which can then be imported into other applications such as Joplin and Standard notes.
+
+The default input file is Raindrop.io.html and the default output file is Raindrop.enex.
+
+### Installation
+
+##### Local
+
 ```
-  Usage: index [options] [command]
+npm i raindrop2enex 
+```
+
+##### Global
+
+```
+npm i -g raindrop2enex
+```
+
+### Usage
+```
+  Usage: raindrop2enex [options] [command]
   
   Commands:
     help     Display help
