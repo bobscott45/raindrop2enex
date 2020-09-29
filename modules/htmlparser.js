@@ -57,5 +57,5 @@ const htmlparser = new htmlparser2.Parser({
 
 exports.convert = function(content, addNodeCallback) {
     handleBookmark = addNodeCallback;
-    htmlparser.write(content);
+    htmlparser.parseChunk(content);
 }

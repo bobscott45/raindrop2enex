@@ -1,6 +1,7 @@
 const xmlbuilder = require('xmlbuilder');
 const moment = require('moment');
 
+
 exports.create = function() {
     return xmlbuilder.create('en-export',
         {
@@ -27,8 +28,9 @@ exports.node = function(xml, bookmark) {
     tags.forEach(tag => note.ele('tag', tag));
 }
 
-exports.toString = function(xml) {
-    return xml.end({pretty: true});
+exports.write = function(xml, stream) {
+    const writer = xmlbuilder.streamWriter(stream);
+    return xml.end(writer);
 }
 
 function content(url, description) {
