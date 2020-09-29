@@ -11,14 +11,17 @@ A tag is added to each note in the enex file to indicate the original Joplin con
 
 ###### Local:
 
+
 ```
-npm install raindrop2enex 
+npm install @bobscott45/raindrop2enex@1.0.0
 ```
+
+
 
 ###### Global:
 
 ```
-npm install -g raindrop2enex
+npm install @bobscott45/raindrop2enex@1.0.0
 ```
 
 ##### Usage
