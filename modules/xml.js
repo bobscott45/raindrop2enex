@@ -1,36 +1,38 @@
-const xmlbuilder = require('xmlbuilder');
+const { create } = require('xmlbuilder2');
+const { select } = require('xpath');
 const moment = require('moment');
 
 
-exports.create = function() {
-    return xmlbuilder.create('en-export',
+exports.init = function() {
+    const xmlTree = create(
         {
             version: '1.0',
             encoding: 'UTF-8',
-            standalone: true,
-            headless: false,
-            pubID: '',
-            sysID: 'http://xml.evernote.com/pub/evernote-export3.dtd'
-        })
-        .att('export-date', moment().toISOString())
-        .att('application', 'raindrop2enix')
-        .att('version', '1.0');
+            standalone: true
+        }
+        ).ele('en-export',
+        {
+            'export-date': moment().toISOString(),
+            'application': 'raindrop2enix',
+            'version': '1.0'
+        });
+    xmlTree.dtd({sysID: 'http://xml.evernote.com/pub/evernote-export3.dtd'});
+    return xmlTree;
 }
 
 exports.node = function(xml, bookmark) {
     let note = xml.ele('note');
-    note.ele('title', bookmark.title);
+    note.ele('title').txt(bookmark.title);
     note.ele('content').dat(content(bookmark.url, bookmark.description));
-    note.ele('created', bookmark.date_added);
-    note.ele('updated', bookmark.last_modified);
-    note        .ele('tag', bookmark.container);
+    note.ele('created').txt(bookmark.date_added);
+    note.ele('updated').txt(bookmark.last_modified);
+    note.ele('tag').txt(bookmark.container);
     let tags = bookmark.tags.split(',');
-    tags.forEach(tag => note.ele('tag', tag));
+    tags.forEach(tag => note.ele('tag').txt(tag));
 }
 
-exports.write = function(xml, stream) {
-    const writer = xmlbuilder.streamWriter(stream);
-    return xml.end(writer);
+exports.write = function(xml, output) {
+    output.write(xml.end({prettyPrint: true}));
 }
 
 function content(url, description) {
