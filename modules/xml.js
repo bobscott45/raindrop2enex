@@ -26,7 +26,9 @@ exports.node = function(xml, bookmark) {
     note.ele('content').dat(content(bookmark.url, bookmark.description));
     note.ele('created').txt(bookmark.date_added);
     note.ele('updated').txt(bookmark.last_modified);
-    note.ele('tag').txt(bookmark.container);
+    if(bookmark.container) {
+        note.ele('tag').txt(bookmark.container);
+    }
     if(bookmark.tags !== '') {
         let tags = bookmark.tags.split(',');
         tags.forEach(tag => note.ele('tag').txt(tag));
